@@ -1,39 +1,40 @@
-# neuraproject
+# Neura - project
 
 This template should help get you started developing with Vue 3 in Vite.
+- MEVN (Vue 3 + Pinia, Typescript, Node.js, MongoDB + Mongoose)
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Installation & Project Setup
+ 
+- Clone the repo - `git clone https://github.com/DurgaMDU/neurademo.git`
+- move to project folder — `cd neurademo`
+- Install project dependencies — `npm install`
 
-## Type Support for `.vue` Imports in TS
+- Launch the app — `npm run dev`, it will become available at [http://localhost:8081/demo/](http://localhost:8081/demo/).
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+
+### Available output links 
+
+```sh
+- http://localhost:8081/demo/
+- http://localhost:8081/demo/list
+- http://localhost:8081/demo/locallist
+```
 
 ## Customize configuration
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+## Prerequisites
 
-```sh
-npm install
-```
+Make sure you have installed all of the following prerequisites on your development machine:
 
-### Compile and Hot-Reload for Development
+- Git
+- Node.js
+- Run Express API at [http://localhost:8000/api/launches/](http://localhost:8000/api/launches)
 
-```sh
-npm run dev
-```
+## Related Projects
+[express.js Backend API](https://github.com/DurgaMDU/express-mongodb).
 
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
+### Author
+Durgadevi Maheswaran
